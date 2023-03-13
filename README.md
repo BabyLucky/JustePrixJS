@@ -1,0 +1,1 @@
+Juste-Prix JavaScript by Lucas "BabyLucky" Madranges
