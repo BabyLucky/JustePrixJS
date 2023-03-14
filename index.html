@@ -2,12 +2,16 @@
     <html lang="fr">
     <head>
         <meta charset="UTF-8">
-        
+        <link rel="stylesheet" href="style.css">
         <title>Mini-Jeux Juste Prix</title>
     </head>
     <body>
-        <audio src="audio/justeprix2009_pierrebillon.mp3" controls></audio>
-        <button onclick="loadgame();">Lancer le jeu</button>
-        <script src="script.js"></script>
+        <img src="images/justeprix.png" alt="Image Juste Prix">
+        <div>
+            <audio id="audiomp3" src="audio/justeprix2009_pierrebillon.mp3" hiden></audio>
+            <button onclick="playaudio();">Lancer la musique</button>
+            <button onclick="loadgame();">Lancer le jeu</button>
+            <script src="script.js"></script>
+        </div>
     </body> 
 </html>

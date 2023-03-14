@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: greenyellow;
+}
+
+div{
+    background-color: lightgrey;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 150px;
+    width:150px;
+}
+
+button{
+    background-color: lightslategrey;
+    color:white;
+    border-color: gold;
+}

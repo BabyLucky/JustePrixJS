@@ -1,5 +1,13 @@
+function playaudio()
+{
+    const audio = document.getElementById('audiomp3');
+    audio.play();
+}
+
 function loadgame()
 {
+    playaudio();
+
     var valmax = prompt('Quelle est la valeur maximum souhaité ?');
     alert('La valeur aléatoire sera donc compris entre 0 et '+valmax);
     alert('Prêt ?');
