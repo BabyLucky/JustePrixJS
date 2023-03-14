@@ -5,9 +5,15 @@
 }
 
 div{
+    position: absolute;
     background-color: lightgrey;
     align-items: center;
     justify-content: center;
+    height: 500px;
+    width: 500px;
+    top:20vh;
+    left:35vw;
+    border-radius:10%;
 }
 
 img{
