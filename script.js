@@ -4,6 +4,12 @@ function playaudio()
     audio.play();
 }
 
+function stopmp3()
+{
+    const audio = document.getElementById('audiomp3');
+    audio.pause();
+}
+
 function loadgame()
 {
     playaudio();
@@ -33,16 +39,19 @@ function loadgame()
         }
     }
     var choix = prompt('Recommencer une partie ? (O/N)');
-    if(choix == 'O')
+    while((choix == 'O') || (choix == 'N'))
     {
-        location.reload();
-    }
-    else if(choix == 'N')
-    {
-        alert("Merci d'avoir joué.");
-    }
-    else if(choix != 'N' && choix != 'O')
-    {
-        alert("Ceci n'est pas une réponse");
+        if(choix == 'O')
+        {
+            location.reload();
+        }
+        else if(choix == 'N')
+        {
+            alert("Merci d'avoir joué.");
+        }
+        else if(choix != 'N' && choix != 'O')
+        {
+            alert("Ceci n'est pas une réponse");
+        }
     }
 }
