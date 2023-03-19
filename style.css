@@ -25,4 +25,15 @@ button{
     background-color: lightslategrey;
     color:white;
     border-color: gold;
+    height: 50px;
+    width: 300px;
+    font-size: 25px;
+}
+
+ul, li{
+    border-radius: 50%;
+    height: 100px;
+    background-color: lightgray;
+    margin-left:50px;
+    list-style-type: none;
 }
