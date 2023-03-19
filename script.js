@@ -10,6 +10,12 @@ function stopmp3()
     audio.pause();
 }
 
+function volumemoins()
+{
+    const audio = document.getElementById('audiomp3');
+    audio.volume = 0.5;
+}
+
 function loadgame()
 {
     playaudio();
